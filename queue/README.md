@@ -7,8 +7,8 @@ A Queue is a linear structure which follows a particular order in which the oper
 
 
 ## List of Programs
-- [Queue using Array](Queue.java)
+- ### [Queue using Array](Queue.java)  
   The program [Queue.java](Queue.java) contains the implementation of the using Array data structure. The program [QueueHelper.java](QueueHelper.java) utilizes the datastructure and let you push and pop elements in the Queue, also giving you the functionality to print the queue.
 
-- [Queue using Linked List](QueueLinkedList.java)
+- ### [Queue using Linked List](QueueLinkedList.java)  
   The Program [QueueLinkedList.java](QueueLinkedList.java) contains the implementation for Queue using Linked List data structure. The program [QueueImplementer.java](QueueImplementer.java) utilizes the datastructure and let you push and pop elements in the Queue, also giving you the functionality to print the queue.
