@@ -1,4 +1,9 @@
 /* URL: https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string/0/?ref=self
+ * Input: ABC
+ * Output: ABC ACB BAC BCA CAB CBA 
+ *
+ * Input: ABSG
+ * Output: ABGS ABSG AGBS AGSB ASBG ASGB BAGS BASG BGAS BGSA BSAG BSGA GABS GASB GBAS GBSA GSAB GSBA SABG SAGB SBAG SBGA SGAB SGBA
  */
 
 package strings;

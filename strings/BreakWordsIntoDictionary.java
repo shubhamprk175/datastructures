@@ -1,6 +1,21 @@
 // Question: https://www.geeksforgeeks.org/word-break-problem-using-backtracking/
 /* This problem has been solved using the backtracking approach. This removes
  * extra branches/calls and avoids them which are unnecessary.
+ * 
+ * Test Cases
+ * Consider the following dictionary 
+ * { i, like, sam, sung, samsung, mobile, ice, 
+ * and, cream, icecream, man, go, mango}
+ *
+ * Input: "ilikesamsungmobile"
+ * Output: i like sam sung mobile
+ *         i like samsung mobile
+ * 
+ * Input: "ilikeicecreamandmango"
+ * Output: i like ice cream and man go
+ *         i like ice cream and mango
+ *         i like icecream and man go
+ *         i like icecream and mango
  */
 import java.util.HashMap;
 import java.util.ArrayList;

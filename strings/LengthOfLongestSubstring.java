@@ -1,8 +1,22 @@
 /* Question:
-Program to find-
-1.the length of longest substring which does not have any repeated characters.
-2.the length of longest substring which has all characters in alphabetical order
-Print answer as per user's choice
+ * Program to find-
+ * 1.the length of longest substring which does not have any repeated characters.
+ * 2.the length of longest substring which has all characters in alphabetical order
+ * Print answer as per user's choice
+ *
+ * Test Cases for Problem 1
+ * Input: “ABDEFGABEF”
+ * Output: 6 for “BDEFGA” or “DEFGAB”
+ *
+ * Input: "BBBB"
+ * Outout: 1 for "B"
+ * 
+ * Test Cases for Problem 2
+ * Input: “abcabcdefabc”
+ * Output: 6 for "abcdef"
+ * 
+ * Input: “zabcd”
+ * Output: 5
  */
 
 import java.io.*;

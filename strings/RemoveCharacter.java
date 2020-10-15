@@ -1,4 +1,11 @@
 // Remove a character from a string recursively/iteratively.
+/* Link to the Problem: https://www.geeksforgeeks.org/remove-all-occurrences-of-a-character-in-a-string-recursive-approach/
+ * Test Cases
+ * Input: text = “firebreather”, ch = ‘e’ 
+ * Output: firbrathr
+ * Input: text = "Mississippi", ch = ‘s’ 
+ * Output: Miiippi
+ */
 
 public class RemoveCharacter {
     public static void removeCharacterIter(String text, char ch) {

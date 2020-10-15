@@ -1,3 +1,19 @@
+/* Problem Statement: Given two strings check if one can be formed by removing characters from second
+ * Input : first = geeks, second = geekforgeeks
+ * Output : Yes
+ * Here, string2 can be formed from string1.
+ * 
+ * Input : first = and, second = geekforgeeks
+ * Output :  No
+ * Here string2 cannot be formed from string1.
+ * 
+ * Input : first = geeeek, second = geekforgeeks
+ * Output :  Yes
+ * Here string2 can be formed from string1
+ * as string1 contains 'e' comes 4 times in
+ * string2 which is present in string1. 
+ */
+
 import java.util.Scanner;
 
 class StringSubsequence {
